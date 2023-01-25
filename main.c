@@ -39,7 +39,7 @@ int main()
     res_fun5 = test_grab_four_bits();
     res_fun6 = test_hexdump();
     res_fun7 = test_rotate_right();
-    if((res_fun1 == 1) || (res_fun2 == 1) || (res_fun3 == 1)  || (res_fun4 == 1) || (res_fun5 == 1) || (res_fun6 == 1) || (res_fun7 == 1))
+    if((res_fun1 == 1) && (res_fun2 == 1) && (res_fun3 == 1)  && (res_fun4 == 1) && (res_fun5 == 1) && (res_fun6 == 1) && (res_fun7 == 1))
     {
         printf("Success..!\n");
     }
