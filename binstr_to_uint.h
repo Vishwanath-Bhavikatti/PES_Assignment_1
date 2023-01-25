@@ -1,13 +1,12 @@
 /*************************************************************************************************************************
 ​ * 
-​ ​*​ ​This header file includes a function prototype which takes​ ​pointer​ ​to​ ​a​ ​char​ ​data​ ​set,​ size of the character data set, 
-    unsigned integer and number of bits to represent as an input parameters, and function will convert unsigned int to 
-    binary string and return the length of the binary string.
+​ ​*​ ​This header file includes a function prototype for converting a binary string to an unsigned integer. constant binary
+ * string is passed as an input parameter and the function returns unsigned integer in decimal format. In case of error returns -1
 ​ ​*​ ​@author​ :​Vishwanath Bhavikatti
-​ ​*​ ​@date​ :​August 30, 2022 
- * @file name : unit_binary.h
- * @file_description:  convertion of unsigned integer to binary string
-​ ​* @return character array of binary string 
+​ ​*​ ​@date​ :​January 20, 2023 
+ * @file name : binstr_to_uint.h
+ * 
+ *                     
 ​ 
  ************************************************************************************************************************
 ​ ​*/ 
